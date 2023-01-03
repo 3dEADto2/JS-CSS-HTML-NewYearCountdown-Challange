@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gold;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr 150px 2fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.big-container {
+    align-self: end;
+}
+
+.big-container h1 {
+    margin: 30px 0px 30px 0px;
+    font-size: 5rem;
+}
+
+.countdown-container {
+    background-color: orange;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 35px;
+}
+
+.countdown-container .number {
+    font-size: 2.3rem;
+}
+
+.countdown-container .text {
+    font-size: 0.9rem;
+}
